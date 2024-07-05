@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://registry.hub.docker.com/milvusdb/milvus:2.4-20240701-92b7eebb-gpu docker://registry.cn-hangzhou.aliyuncs.com/docker_siq/milvusdb/milvus:2.4-20240701-92b7eebb-gpu
+        skopeo copy docker://docker.io/milvusdb/milvus:2.4-20240701-92b7eebb-gpu docker://registry.cn-hangzhou.aliyuncs.com/docker_siq/milvusdb/milvus:2.4-20240701-92b7eebb-gpu
  
